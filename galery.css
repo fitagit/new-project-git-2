@@ -63,13 +63,14 @@ body{
 
 .gal{
   width: 200px;
-  height: 250px;
+  height: 280px;
   margin: 20px;
   border: solid 1px black;
 }
 
 .gal h3{
   text-align: center;
+  color: #fff;
 }
 
 .img{
