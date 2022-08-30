@@ -78,3 +78,33 @@ body{
   text-align: center;
   padding: 10px;
 }
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(108, 240, 21); 
+}
+
+.title{
+  text-align: center;
+  color: #fff;
+}
+
+.lien ul{
+  padding: 0;
+}
+
+.lien li{
+  text-align: center;
+  list-style: none;
+}
+
+.lien li a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+}
+
+.lien li a:hover{
+  text-decoration: underline;
+}
