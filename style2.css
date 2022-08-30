@@ -1,0 +1,110 @@
+body{
+  background-color: greenyellow;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px auto;
+  background-color:rgb(108, 240, 21);
+}
+
+.logo-smile{
+  width: 70px;
+  padding-top: 10px;
+  transition: 250ms;
+}
+
+.logo-smile:hover{
+  transform: scale(1.1);
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li{
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu li a, .log{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: azure;
+  text-shadow: 3px 3px 3px #000;
+  transition: 250ms;
+}
+
+.menu li a:hover{
+  text-shadow: 5px 5px 3px #000;
+}
+
+.log:hover{
+  text-shadow: 5px 5px 3px #000;
+}
+
+.sing{
+  width: 80px;
+  height: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.asside{
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  border: solid black 1px;
+}
+
+.sml{
+  position: relative;
+  animation: anim 5s infinite;
+}
+
+.titl{
+  text-align: center;
+}
+
+.para{
+  text-align: center;
+  padding: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(108, 240, 21); 
+}
+
+.title{
+  text-align: center;
+  color: #fff;
+}
+
+.lien ul{
+  padding: 0;
+}
+
+.lien li{
+  text-align: center;
+  list-style: none;
+}
+
+.lien li a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+}
+
+.lien li a:hover{
+  text-decoration: underline;
+}
